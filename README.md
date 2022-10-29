@@ -17,6 +17,6 @@ Backend по адресу: https://react621h-pcrud.herokuapp.com/.
 1. Вы нажимаете на кнопку обновить (две зелёные стрелочки).  
 2. После чего делается запрос на получение всех записей и происходит обновление списка.  
 
-**Project Sample**  
+**Project Sample** [![Build status](https://ci.appveyor.com/api/projects/status/l6egj305cxcvtq5i?svg=true)](https://ci.appveyor.com/project/Gronik4/react6-2-2h-pcrud-front) 
 
-[Посмотреть результат]
+[Посмотреть результат]( https://gronik4.github.io/react6.2.2h-pcrud-front/)
