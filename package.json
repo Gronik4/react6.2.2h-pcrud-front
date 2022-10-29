@@ -21,6 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://github.com/Gronik4/react6.2.2h-pcrud-front",
   "eslintConfig": {
     "extends": [
       "react-app",
