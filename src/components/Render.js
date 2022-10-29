@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { RenderMessage } from './RenderMessage';
 import { RenderUpdata } from './RenderUpdata';
 import { RenderAdding } from './RenderAdding';
+import propTypes from 'prop-types';
 
 export class Render extends Component {
   constructor(props) {
@@ -48,6 +49,13 @@ export class Render extends Component {
       </React.Fragment>
     )
   }
+}
+
+Render.propTypes = {
+  getData: propTypes.func,
+  hendeleAdd: propTypes.func,
+  hendeleDelete: propTypes.func,
+  hendleUppdata: propTypes.func
 }
 
 export default Render;

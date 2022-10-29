@@ -1,5 +1,6 @@
 import React from 'react';
 import del from '../img/del.png';
+import propTypes from 'prop-types';
 
 export const RenderMessage = ({messages, onDeleteMessage}) => {
   if (!messages) {return;}
@@ -21,3 +22,7 @@ export const RenderMessage = ({messages, onDeleteMessage}) => {
   )
 }
 
+RenderMessage.propTypes = {
+  hendleClickDel: propTypes.func,
+  id: propTypes.string
+}

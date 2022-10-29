@@ -1,5 +1,6 @@
 import React from 'react';
 import updata from '../img/updata.png';
+import propTypes from 'prop-types';
 
 export const RenderUpdata = ({onHendleClick}) => {
   function hendleUppdata() {
@@ -13,3 +14,6 @@ export const RenderUpdata = ({onHendleClick}) => {
   )
 }
 
+RenderUpdata.propTypes = {
+  hendleUppdata: propTypes.func
+}
